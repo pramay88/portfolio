@@ -39,6 +39,12 @@
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
             transition: all 0.3s ease;
         }
+        .profile-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* or 'contain' depending on the result you want */
+        }
+
 
         .profile-card:hover {
             transform: translateY(-5px);
@@ -1187,7 +1193,7 @@
         <!-- Profile Card -->
         <div class="profile-card">
             <div class="profile-image">
-                YN
+                <img src="https://cdn.pixabay.com/photo/2023/02/18/11/00/icon-7797704_640.png" alt="Profile Picture" >
             </div>
 
             <h1 class="profile-name">Pramay Wankhade</h1>
@@ -1278,22 +1284,14 @@
                 <h2 class="section-title">🏅 Achievements & Awards</h2>
                 <div class="timeline">
                     <div class="timeline-item">
-                        <h3 class="timeline-title">Technical Awards</h3>
+                        <!-- <h3 class="timeline-title">Technical Awards</h3> -->
                         <ul class="achievement-list">
-                            <li>Winner - College Hackathon 2023</li>
-                            <li>Runner Up - State Level Project Competition</li>
-                            <li>Best Innovation Award - Tech Fest 2023</li>
+                            <li>Participation - Various Intercollege Volleyball Tournaments</li>
+                            <li>Semi-finals - Inter-Collegiate Volleyball Tournament at S.B. Patil</li>
+                            <!-- <li>Best Innovation Award - Tech Fest 2023</li> -->
                         </ul>
                     </div>
                     
-                    <div class="timeline-item">
-                        <h3 class="timeline-title">College/University Level Recognitions</h3>
-                        <ul class="achievement-list">
-                            <li>Department Topper - Semester III</li>
-                            <li>Best Student Award 2023</li>
-                            <li>Outstanding Project Award</li>
-                        </ul>
-                    </div>
                 </div>
             </section>
 
@@ -1440,8 +1438,8 @@
                                 <span class="rating">250+ Solved</span>
                             </div>
                             <div class="stat-tag">
-                                <span>HackerRank</span>
-                                <span class="rating">5★ Python</span>
+                                <span>GFG</span>
+                                <span class="rating">120+ Solved</span>
                             </div>
                             <div class="stat-tag">
                                 <span>CodeChef</span>
@@ -1619,7 +1617,7 @@
             <div class="timeline-item">
                 <h4>Workshops & Webinars</h4>
                 <ul class="achievement-list">
-                    <li>Fundamentals of Docker & Kibernates</li>
+                    <li>Fundamentals of Docker & Kubernates</li>
                     <!-- <li>Cloud Computing Workshop by AWS</li> -->
                     <li>Data Science using Python</li>
                 </ul>
@@ -1639,9 +1637,12 @@
         
         <div class="timeline">
             <div class="timeline-item">
-                <h4>Leadership Roles</h4>
+                <h4>Clubs</h4>
                 <ul class="achievement-list">
-                    <li>Competitive Coding Club – Active Member</li>
+                    <li>Competitive Coding Club – Member</li>
+                </ul>
+                <h4>Sports</h4>
+                <ul class="achievement-list">
                     <li>Inter-College Volleyball – Active Team Member</li>
                     <li>Intra-College Sports – CSBS Volleyball Team Captain</li>
                 </ul>
