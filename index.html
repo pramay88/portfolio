@@ -34,7 +34,7 @@
             backdrop-filter: blur(20px);
             border: 1px solid rgba(255, 255, 255, 0.1);
             height: fit-content;
-            /* position: sticky; */
+            position: sticky;
             top: 40px;
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
             transition: all 0.3s ease;
@@ -52,8 +52,8 @@
         }
 
         .profile-image {
-            width: 150px;
-            height: 150px;
+            width: 200px;
+            height: 200px;
             border-radius: 20px;
             margin: 0 auto 30px;
             background: linear-gradient(45deg, #667eea 0%, #764ba2 100%);
@@ -1110,7 +1110,7 @@
     .activities-container {
         gap: 20px;
     }
-    
+
     .timeline-item {
         padding: 15px;
     }
@@ -1193,7 +1193,7 @@
         <!-- Profile Card -->
         <div class="profile-card">
             <div class="profile-image">
-                <img src="../public/passport.png" alt="Profile Picture" >
+                <img src="https://cdn.pixabay.com/photo/2023/02/18/11/00/icon-7797704_640.png" alt="Profile Picture" >
             </div>
 
             <h1 class="profile-name">Pramay Wankhade</h1>
@@ -1206,18 +1206,16 @@
                 <a href="https://www.linkedin.com/in/pramaywankhade/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/2496/2496097.png" height="50px"></a>
                 <a href="mailto:pramaywankhade@gmail.com" target="_blank"><img src="https://images.icon-icons.com/2631/PNG/512/gmail_new_logo_icon_159149.png" alt="Gmail" height="50px"></a>
                 <a href="https://leetcode.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="leetcode" height="50px"></a>
-                <!-- <a href="https://www.kaggle.com/pramaywankhade"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAYFBMVEX///8gvv8Au/8Auf/D6v8KvP+Y2v9v0f+b3P/6/v/l9//v+v/p+P/y+/+t5P+X3f+15v/I7f/P7//Z8v8rwf9Qyf+m4f+K2f84xP9jzv961P+76f/d9P8lwP9Ix/+P2v/HpRUKAAAFGElEQVR4nO2d61LjMAxGGxdTeqdt2i2Flvd/y51dLrMLiT/HUiyJ0fnNMD64FVEky5OJ4ziO4ziO84PZ3XeymUsvjIvtNHYSjj9F8dr0EA7SS2Ni2mt4J700JtzQPm5oHze0jxvaxw3t44b2cUP7uKF93NA+bmgfN7SPG9rHDe3jhvZxQ/u4oX3c0D5uaB83tI8b2scN7eOG9nFD+7ihfdzQPm5oHze0jxvaxw3t44b2cUP7uKF93HAoy9Nl1s9lx7z8DJgNH5vQfXL6nWn908W8hqfQ9+veib/YDRCshlsk2ATbhnAHm3hdjuCQhtEwQ7BdjOGQhs8wR3A1ikMaNsMMwfN6HIc0XIZqBbkMN1jwJiPIZJgjKDUrhcUQCwoOg+EwzBB8kpt2w2D4qFqQwTBDcDaqAoBsqF2QbPiMBS8jKwCIhvoFiYYZgvXTpS+QDC0IkgzvsOBrBQUAwfAuQsFtDQVAuWHGDmoQLDfcYcFTHQVAqeEOf0Q3lRQAhYYZgo+1FABlhlgwPldTABQZ7nHCq0awyHCPP6IC9Yk+CgyxYNzXVAAMN8SCjSbB4YYHvIO6ptcONcwQfKmsABhoeEB+zVWZ4EBDvIOtNsFhhi/IL14FikuAIYZwB2NbvzwIGWAIv4PxLFE9Q+Qb4o/oWeEODjBc9E5v/xTUOac+1/AFCmodxJ9puAB+ksUlQJ7hyq5gniH8DoYnOQNEjuGiBf8IhWsvaTIMV6YFMwyXtgWxId5B6eISABliQfnaSxpguDYvCAyXZ/OCacMVFFRRe0mTMsQ7qKP2kqbfcDdHglMLggnDzQ3toJLiEqDXEBK1FJcAxYZBT+0lTalhVFR7SVNqaORLOKF8SlWVXxKUR5qrxleHHRBi6U167XmUG2rPCz8gGNp4aCMZqirX90IybBp9paZv0AzlTlHkQ9xDA9GGaNiEB2kDBNVQ/5lvsqH6aEM31Fo3/IBhD6PissyExVD5GzcOQ93RJs8Q9pMqjjY5hvEG+zCueqNNhmE8rmFnvuJogw3D32dPNBBCw+mYbqBhOL794Ay9H9b6dhEZfj5az8/oJ9V1Jb4BDP/JHRYooLY6o03a8L8K9jP4ayiNNslVf6l/vpqMNinDb09jTyjaaCzWJAy/J7frNm2orov9D/2GXe8KDwajTX+FtPNlKBoQEY+1BSBDz1tcULRR15wx1HAOa9/aos3gU0FL1LCv7dmm4GQXjDa6GtoLTuehkVDKok3JCcuZqWhTYgjTjKmmIn/ROeAFjDaKivxlZ7nhyA+R6XrdFJ7HR2mGomhTOlMBphlqeqNLDWGaoSbaFE/+gGmGliPr5dNb8Bw6HdGGMIEHpRlKWoooU5SOJqINxRCnGRpaikizvmCaoaGliDavDU6eVXB6nThzD6UZCqIN0RBXM8RbiqiTIVcw2kgX+cnTPWGaIR1t6BNaUZoh/WzDMGUXpRmxHVMAwmA4h9UM21N2Jxlphmi0qTPPW7KliGcmO0ozmij3bMM0Vx+lGYJlNyZDmGbIFfm5bn/AaYZUtKl3g4dUSxHfLSyoaUqqyM9nCNOMRqZdmvGuIJhmyEQbzvuecJoh0VLEemcXTDMkog3vvWsozWhC/WcbXkOYZjRt9RuDmG8HxNWM6tGG2TAjzaj9lrh3QaUJD6xm1E6HeyexhdJpwEegeGZdP2Y77bxWM0yLy9TzWUjd1BkazuXnsH/ohNKddjjd93OSf8/vOI7jOI7jjMdvycdIrEsJUe8AAAAASUVORK5CYII=" alt="Kaggle" height="50px"></a> -->
+                <a href="https://www.kaggle.com/pramaywankhade"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAYFBMVEX///8gvv8Au/8Auf/D6v8KvP+Y2v9v0f+b3P/6/v/l9//v+v/p+P/y+/+t5P+X3f+15v/I7f/P7//Z8v8rwf9Qyf+m4f+K2f84xP9jzv961P+76f/d9P8lwP9Ix/+P2v/HpRUKAAAFGElEQVR4nO2d61LjMAxGGxdTeqdt2i2Flvd/y51dLrMLiT/HUiyJ0fnNMD64FVEky5OJ4ziO4ziO84PZ3XeymUsvjIvtNHYSjj9F8dr0EA7SS2Ni2mt4J700JtzQPm5oHze0jxvaxw3t44b2cUP7uKF93NA+bmgfN7SPG9rHDe3jhvZxQ/u4oX3c0D5uaB83tI8b2scN7eOG9nFD+7ihfdzQPm5oHze0jxvaxw3t44b2cUP7uKF93HAoy9Nl1s9lx7z8DJgNH5vQfXL6nWn908W8hqfQ9+veib/YDRCshlsk2ATbhnAHm3hdjuCQhtEwQ7BdjOGQhs8wR3A1ikMaNsMMwfN6HIc0XIZqBbkMN1jwJiPIZJgjKDUrhcUQCwoOg+EwzBB8kpt2w2D4qFqQwTBDcDaqAoBsqF2QbPiMBS8jKwCIhvoFiYYZgvXTpS+QDC0IkgzvsOBrBQUAwfAuQsFtDQVAuWHGDmoQLDfcYcFTHQVAqeEOf0Q3lRQAhYYZgo+1FABlhlgwPldTABQZ7nHCq0awyHCPP6IC9Yk+CgyxYNzXVAAMN8SCjSbB4YYHvIO6ptcONcwQfKmsABhoeEB+zVWZ4EBDvIOtNsFhhi/IL14FikuAIYZwB2NbvzwIGWAIv4PxLFE9Q+Qb4o/oWeEODjBc9E5v/xTUOac+1/AFCmodxJ9puAB+ksUlQJ7hyq5gniH8DoYnOQNEjuGiBf8IhWsvaTIMV6YFMwyXtgWxId5B6eISABliQfnaSxpguDYvCAyXZ/OCacMVFFRRe0mTMsQ7qKP2kqbfcDdHglMLggnDzQ3toJLiEqDXEBK1FJcAxYZBT+0lTalhVFR7SVNqaORLOKF8SlWVXxKUR5qrxleHHRBi6U167XmUG2rPCz8gGNp4aCMZqirX90IybBp9paZv0AzlTlHkQ9xDA9GGaNiEB2kDBNVQ/5lvsqH6aEM31Fo3/IBhD6PissyExVD5GzcOQ93RJs8Q9pMqjjY5hvEG+zCueqNNhmE8rmFnvuJogw3D32dPNBBCw+mYbqBhOL794Ay9H9b6dhEZfj5az8/oJ9V1Jb4BDP/JHRYooLY6o03a8L8K9jP4ayiNNslVf6l/vpqMNinDb09jTyjaaCzWJAy/J7frNm2orov9D/2GXe8KDwajTX+FtPNlKBoQEY+1BSBDz1tcULRR15wx1HAOa9/aos3gU0FL1LCv7dmm4GQXjDa6GtoLTuehkVDKok3JCcuZqWhTYgjTjKmmIn/ROeAFjDaKivxlZ7nhyA+R6XrdFJ7HR2mGomhTOlMBphlqeqNLDWGaoSbaFE/+gGmGliPr5dNb8Bw6HdGGMIEHpRlKWoooU5SOJqINxRCnGRpaikizvmCaoaGliDavDU6eVXB6nThzD6UZCqIN0RBXM8RbiqiTIVcw2kgX+cnTPWGaIR1t6BNaUZoh/WzDMGUXpRmxHVMAwmA4h9UM21N2Jxlphmi0qTPPW7KliGcmO0ozmij3bMM0Vx+lGYJlNyZDmGbIFfm5bn/AaYZUtKl3g4dUSxHfLSyoaUqqyM9nCNOMRqZdmvGuIJhmyEQbzvuecJoh0VLEemcXTDMkog3vvWsozWhC/WcbXkOYZjRt9RuDmG8HxNWM6tGG2TAjzaj9lrh3QaUJD6xm1E6HeyexhdJpwEegeGZdP2Y77bxWM0yLy9TzWUjd1BkazuXnsH/ohNKddjjd93OSf8/vOI7jOI7jjMdvycdIrEsJUe8AAAAASUVORK5CYII=" alt="Kaggle" height="50px"></a>
             </div>
 
             <div class="action-buttons">
                 <a href="#contact" class="btn btn-primary">
                     📞 Contact Me
                 </a>
-                <a href="../public/resume.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
-    📄 View Resume
-</a>
-
-
+                <a href="#" class="btn btn-secondary">
+                    📄 Download Resume
+                </a>
             </div>
         </div>
 
@@ -1229,18 +1227,18 @@
                 <h1 class="intro-title">I'm Pramay Wankhade,<br>Computer Science Student</h1>
                 <h2 class="intro-subtitle">at JSPM RSCOE</h2>
                 <p class="intro-location">Based in Pune, Maharashtra.</p>
-                
+
                 <p class="intro-description">
-                    Passionate computer science engineering student with a strong foundation in software development, algorithms, and emerging technologies. I am constantly learning new technologies to stay at the forefront of innovation.
+                    Passionate computer science engineering student with a strong foundation in software development, algorithms, and emerging technologies. I specialize in creating efficient solutions to complex problems and am constantly learning new technologies to stay at the forefront of innovation. Currently seeking internship opportunities to apply my skills in real-world projects.
                 </p>
 
                 <!-- Add Career Objective section here -->
-                <!-- <div class="career-objective">
+                <div class="career-objective">
                     <h3 class="section-subtitle">Career Objective</h3>
                     <p class="objective-text">
                         Aspiring to become a skilled Full Stack Developer and AI Engineer, I aim to leverage my technical expertise to create innovative solutions that make a positive impact. My mission is to contribute to cutting-edge projects while continuously learning and growing in the rapidly evolving tech landscape. I seek opportunities that challenge me to push boundaries and foster both personal and professional growth.
                     </p>
-                </div> -->
+                </div>
 
                 <div class="stats">
                     <div class="stat-item">
@@ -1248,14 +1246,14 @@
                         <div class="stat-label">Github Repos</div>
                     </div>
                     <div class="stat-item">
-                        <div class="stat-number">1300+</div>
-                        <div class="stat-label">Contributions</div>
+                        <div class="stat-number">850+</div>
+                        <div class="stat-label">Commits</div>
                     </div>
                     <div class="stat-item">
                         <div class="stat-number">700+</div>
                         <div class="stat-label">Problems Solved</div>
                     </div>
-                    
+
                     <div class="stat-item">
                         <div class="stat-number">3</div>
                         <div class="stat-label">Years of Learning</div>
@@ -1265,7 +1263,7 @@
 
             <!-- Add Languages and Achievements sections -->
             <section class="section">
-                <h2 class="section-title">Languages Known</h2>
+                <h2 class="section-title">🌐 Languages Known</h2>
                 <div class="skills-grid">
                     <div class="skill-item">
                         <div class="skill-name">English</div>
@@ -1283,23 +1281,23 @@
             </section>
 
             <section class="section">
-                <h2 class="section-title">Achievements & Awards</h2>
+                <h2 class="section-title">🏅 Achievements & Awards</h2>
                 <div class="timeline">
                     <div class="timeline-item">
                         <!-- <h3 class="timeline-title">Technical Awards</h3> -->
                         <ul class="achievement-list">
-                            <li>Semi-finals - Inter-Collegiate Volleyball Tournament at S.B. Patil College</li>
                             <li>Participation - Various Intercollege Volleyball Tournaments</li>
+                            <li>Semi-finals - Inter-Collegiate Volleyball Tournament at S.B. Patil</li>
                             <!-- <li>Best Innovation Award - Tech Fest 2023</li> -->
                         </ul>
                     </div>
-                    
+
                 </div>
             </section>
 
             <!-- Education/academics Section -->
             <section class="section">
-                <h2 class="section-title">Academics</h2>
+                <h2 class="section-title">📚 Academics</h2>
                 <div class="timeline">
                     <!-- 10th Education -->
                     <div class="timeline-item">
@@ -1311,10 +1309,10 @@
                             <span class="timeline-date">2021</span>
                         </div>
                         <p class="timeline-description">
-                            Percentage: 90%
+                            Percentage: 90.80%
                         </p>
                     </div>
-                    
+
                     <!-- 12th Education -->
                     <div class="timeline-item">
                         <div class="timeline-header">
@@ -1325,7 +1323,7 @@
                             <span class="timeline-date">2023</span>
                         </div>
                         <p class="timeline-description">
-                            Percentage: 81%
+                            Percentage: 85.67%
                         </p>
                     </div>
 
@@ -1339,7 +1337,7 @@
                             </div>
                             <span class="timeline-date">2023 - 2027</span>
                         </div>
-                        
+
                         <!-- Semester-wise SGPA Table -->
                         <div class="semester-table-container">
                             <h4 class="table-title">Grades</h4>
@@ -1364,10 +1362,10 @@
                                         <td>9.03</td>
                                     </tr>
                                     <tr>
-                                        <td>IV</td>
+                                        <td>III</td>
                                         <td>8.88</td>
                                     </tr>
-                                    
+
 
                                 </tbody>
                             </table>
@@ -1378,8 +1376,8 @@
 
             <!-- Technical Skills Section -->
             <section class="section">
-                <h2 class="section-title">Technical Skills</h2>
-                
+                <h2 class="section-title">💻 Technical Skills</h2>
+
                 <div class="skills-container">
                     <!-- Programming Languages -->
                     <div class="skill-category">
@@ -1406,7 +1404,7 @@
                             <span class="tag intermediate">Express.js</span>
                             <span class="tag intermediate">MongoDB</span>
                             <span class="tag intermediate">MySQL</span>
-                            
+
                             <span class="tag advanced">VS Code</span>
                         </div>
                     </div>
@@ -1454,8 +1452,8 @@
 
             <!-- Projects Section -->
             <section class="section">
-                <h2 class="section-title">Projects</h2>
-                
+                <h2 class="section-title">📁 Projects</h2>
+
                 <!-- Add filter controls -->
                 <div class="project-filters">
                     <select id="typeFilter" class="filter-select">
@@ -1481,86 +1479,14 @@
                                 <th>Title</th>
                                 <th>Description</th>
                                 <th>Tools</th>
-                                <!-- <th>Role</th> -->
+                                <th>Role</th>
                                 <th>Outcome</th>
                                 <th>Status</th>
                                 <th>Link</th>
-                                <!-- <th>SDG Goal</th> -->
+                                <th>SDG Goal</th>
                             </tr>
                         </thead>
                         <tbody>
-                
-                            <tr>
-                                <td><span class="tag academic">Personal</span></td>
-                                <td>Share-Anywhere</td>
-                                <td>A modern “send anything” web application built with Next.js and TypeScript for seamless file sharing</td>
-                                <td>
-                                    <div class="tech-stack">
-                                        <span class="tech-tag">Next.js</span>
-                                        <span class="tech-tag">TypeScript</span>
-                                        <span class="tech-tag">Node.js</span>
-                                        <span class="tech-tag">Express</span>
-                                        <span class="tech-tag">MongoDB</span>
-                                    </div>
-                                </td>
-                                <td>Personal project</td>
-                                <td><span class="status-badge completed">completed</span></td>
-                                <td><a href="https://github.com/pramay88/send-anywhere-next" class="project-link">GitHub</a></td>
-                            </tr>
-
-                            <tr>
-                                <td><span class="tag personal">Personal</span></td>
-                                <td>TheMoviesBase</td>
-                                <td>A modern movie-discovery app inspired by IMDb, using TMDB API</td>
-                                <td>
-                                    <div class="tech-stack">
-                                        <span class="tech-tag">React</span>
-                                        <span class="tech-tag">Tailwind CSS</span>
-                                        <span class="tech-tag">Node.js</span>
-                                        <span class="tech-tag">Express.js</span>
-                                        <span class="tech-tag">Firebase</span>
-                                        <span class="tech-tag">TMDB API</span>
-                                    </div>
-                                </td>
-                                <td>Personal project</td>
-                                <td><span class="status-badge completed">completed</span></td>
-                                <td><a href="https://github.com/pramay88/TheMoviesBase" class="project-link">GitHub</a></td>
-                            </tr>
-                            
-                            <tr>
-    <td><span class="tag academic">Academic</span></td>
-    <td>DiabRiskLab</td>
-    <td>A college-level ML project comparing ensemble methods (Random Forest vs. Gradient Boosting) for diabetes prediction</td>
-    <td>
-        <div class="tech-stack">
-            <span class="tech-tag">Python</span>
-            <span class="tech-tag">scikit-learn</span>
-            <span class="tech-tag">Random Forest</span>
-            <span class="tech-tag">Gradient Boosting</span>
-            <span class="tech-tag">Pandas</span>
-            <span class="tech-tag">NumPy</span>
-        </div>
-    </td>
-    <td>College project</td>
-    <td><span class="status-badge completed">Completed</span></td>
-    <td><a href="https://github.com/pramay88/forest-boost-predict" class="project-link">GitHub</a></td>
-                            </tr>
-                            <tr>
-                                <td><span class="tag personal">Personal</span></td>
-                                <td>Chat-CLI</td>
-                                <td>A network-chat CLI tool allowing peer computers on the same WiFi/LAN (with or without internet) to chat</td>
-                                <td>
-                                    <div class="tech-stack">
-                                        <span class="tech-tag">Python</span>
-                                        <span class="tech-tag">Socket Programming</span>
-                                        <span class="tech-tag">CLI</span>
-                                        <span class="tech-tag">LAN Networking</span>
-                                    </div>
-                                </td>
-                                <td>Personal project</td>
-                                <td><span class="status-badge in-progress">In Progress</span></td>
-                                <td><a href="https://github.com/pramay88/chat-cli" class="project-link">GitHub</a></td>
-                            </tr>
                             <tr>
                                 <td><span class="tag academic">Academic</span></td>
                                 <td>Attender</td>
@@ -1572,12 +1498,31 @@
                                         <span class="tech-tag">Streamlite</span>
                                     </div>
                                 </td>
-                                <!-- <td>Team Lead</td> -->
+                                <td>Team Lead</td>
                                 <td>Implemented in Department</td>
                                 <td><span class="status-badge completed">Completed</span></td>
-                                <td><a href="https://github.com/pramay88/Attender" class="project-link">GitHub</a></td>
+                                <td><a href="https://github.com/yourusername/attender" class="project-link">GitHub</a></td>
+                                <td>SDG 4</td>
                             </tr>
-
+                            <!-- Replace the second project row in the projects table -->
+<tr>
+    <td><span class="tag personal">Personal</span></td>
+    <td>Expense Tracker</td>
+    <td>Full-stack expense management application with category-wise tracking, budget planning, and detailed monthly analytics</td>
+    <td>
+        <div class="tech-stack">
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">MongoDB</span>
+            <span class="tech-tag">Chart.js</span>
+        </div>
+    </td>
+    <td>Full Stack Developer</td>
+    <td>Active Users: 50+</td>
+        <td><span class="status-badge running">running</span></td>
+    <td><a href="https://github.com/yourusername/expense-tracker" class="project-link">GitHub</a></td>
+    <td>SDG 12</td>
+</tr>
                         </tbody>
                     </table>
                 </div>
@@ -1585,8 +1530,8 @@
 
             <!-- Certifications / MOOCs Section -->
             <section class="section">
-    <h2 class="section-title">Certifications / MOOCs</h2>
-    
+    <h2 class="section-title">📜 Certifications / MOOCs</h2>
+
     <div class="table-container">
         <table class="projects-table">
             <thead>
@@ -1596,6 +1541,7 @@
                     <th>Duration</th>
                     <th>Completion Date</th>
                     <th>Certificate Link</th>
+                    <th>SDG Goals</th>
                     <th>Self Evaluation</th>
                 </tr>
             </thead>
@@ -1606,6 +1552,7 @@
                     <td>5 Weeks</td>
                     <td>May 2024</td>
                     <td><a href="https://coursera.org/share/b1ef0299d97d83b457ba1fac6fd7eb2b" class="project-link">View</a></td>
+                    <td>SDG 4</td>
                     <td>Clarity of Concept</td>
                 </tr>
                 <tr>
@@ -1614,6 +1561,7 @@
                     <td>8 Weeks</td>
                     <td>March 2024</td>
                     <td><a href="https://coursera.org/share/0d6043d5f187d64b6bba546c5e1b3805" class="project-link">View</a></td>
+                    <td>SDG 4, 9</td>
                     <td>Proficient</td>
                 </tr>
                 <tr>
@@ -1622,6 +1570,7 @@
                     <td>8 Weeks</td>
                     <td>October 2024</td>
                     <td><a href="https://moonshot.scaler.com/s/sl/2kTn2Tx_6I" class="project-link">View</a></td>
+                    <td>SDG 4</td>
                     <td>Advanced</td>
                 </tr>
                 <tr>
@@ -1630,6 +1579,7 @@
                     <td>7 Weeks</td>
                     <td>May 2025</td>
                     <td><a href="https://moonshot.scaler.com/s/sl/STZ_2tagLT" class="project-link">View</a></td>
+                    <td>SDG 4</td>
                     <td>Intermediate</td>
                 </tr>
                 <tr>
@@ -1638,6 +1588,7 @@
                     <td>1 Weeks</td>
                     <td>May 2025</td>
                     <td><a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_spieNd9wGHmHMByQa_1747726452361_completion_certificate.pdf" class="project-link">View</a></td>
+                    <td>SDG 4</td>
                     <td>Advanced</td>
                 </tr>
             </tbody>
@@ -1647,12 +1598,12 @@
 
             <!-- Co-curricular / Extra-curricular Activities Section -->
             <section class="section">
-    <h2 class="section-title">Co-curricular / Extra-curricular Activities</h2>
-    
+    <h2 class="section-title">🏆 Co-curricular / Extra-curricular Activities</h2>
+
     <!-- Co-curricular Activities -->
     <div class="activities-container">
         <h3 class="section-subtitle">Co-curricular Activities</h3>
-        
+
         <div class="timeline">
             <div class="timeline-item">
                 <h4>Hackathons & Coding Contests</h4>
@@ -1662,7 +1613,7 @@
                     <!-- <li>Internal College Hackathon - 1st Prize</li> -->
                 </ul>
             </div>
-            
+
             <div class="timeline-item">
                 <h4>Workshops & Webinars</h4>
                 <ul class="achievement-list">
@@ -1671,7 +1622,7 @@
                     <li>Data Science using Python</li>
                 </ul>
             </div>
-            
+
             <!-- <div class="timeline-item">
                 <h4>Expert Talks</h4>
                 <ul class="achievement-list">
@@ -1683,7 +1634,7 @@
 
         <!-- Extra-curricular Activities -->
         <h3 class="section-subtitle">Extra-curricular Activities</h3>
-        
+
         <div class="timeline">
             <div class="timeline-item">
                 <h4>Clubs</h4>
@@ -1693,10 +1644,10 @@
                 <h4>Sports</h4>
                 <ul class="achievement-list">
                     <li>Inter-College Volleyball – Active Team Member</li>
-                    <!-- <li>Intra-College Sports – CSBS Volleyball Team Captain</li> -->
+                    <li>Intra-College Sports – CSBS Volleyball Team Captain</li>
                 </ul>
             </div>
-            
+
             <!-- <div class="timeline-item">
                 <h4>Event Organization</h4>
                 <ul class="achievement-list">
@@ -1760,13 +1711,47 @@
     </div> -->
 </section>
 
+<!-- Add after the Co-curricular Activities section -->
+<section class="section">
+    <h2 class="section-title">🧠 Personal Learning / Reflections</h2>
 
+    <div class="learning-container">
+        <!-- Current Month -->
+        <div class="learning-month">
+            <h3 class="month-title">September 2025</h3>
+            <div class="learning-entries">
+                <div class="learning-entry">
+                    <div class="entry-date">Sep 5</div>
+                    <div class="entry-content">
+                        <p>✅ Solved LeetCode Daily Challenge</p>
+                        <p>📚 Learned: Two Pointer Technique in Arrays</p>
+                    </div>
+                </div>
+                <div class="learning-entry">
+                    <div class="entry-date">Sep 4</div>
+                    <div class="entry-content">
+                        <p>🚀 Deployed Personal Portfolio</p>
+                        <p>💻 Pushed 3 new commits to Expense Tracker project</p>
+                    </div>
+                </div>
+                <div class="learning-entry">
+                    <div class="entry-date">Sep 3</div>
+                    <div class="entry-content">
+                        <p>📊 Completed DSA Topic: Bidirectional Search</p>
+                        <!-- <p>🎯 Achieved 7-day LeetCode streak</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
 
             <!-- Contact Section -->
             <section class="section" id="contact">
-                <h2 class="section-title">Contact</h2>
-                <h3 style="font-size: 32px; margin-bottom: 30px; text-align: center;">Contact</h3>
-                
+                <h2 class="section-title">📞 Contact</h2>
+                <h3 style="font-size: 32px; margin-bottom: 30px; text-align: center;">Let's Get in Touch!</h3>
+
                 <div class="contact-info">
                     <div class="contact-item">
                         <div class="contact-icon">📱</div>
@@ -1775,7 +1760,7 @@
                             <p>+91 8855829564</p>
                         </div>
                     </div>
-                    
+
                     <div class="contact-item">
                         <div class="contact-icon">📧</div>
                         <div class="contact-details">
@@ -1783,7 +1768,7 @@
                             <p>pramaywankhade@gmail.com</p>
                         </div>
                     </div>
-                    
+
                     <div class="contact-item">
                         <div class="contact-icon">📍</div>
                         <div class="contact-details">
@@ -1842,33 +1827,33 @@
         // Form submission handler
         document.getElementById('contactForm').addEventListener('submit', function(e) {
             e.preventDefault();
-            
+
             // Get form data
             const formData = new FormData(this);
             const name = formData.get('name');
             const email = formData.get('email');
             const subject = formData.get('subject');
             const message = formData.get('message');
-            
+
             // Simple validation
             if (!name || !email || !subject || !message) {
                 alert('Please fill in all fields.');
                 return;
             }
-            
+
             // Email validation
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             if (!emailRegex.test(email)) {
                 alert('Please enter a valid email address.');
                 return;
             }
-            
+
             // Simulate form submission
             const submitBtn = this.querySelector('button[type="submit"]');
             const originalText = submitBtn.innerHTML;
             submitBtn.innerHTML = '⏳ Sending...';
             submitBtn.disabled = true;
-            
+
             // Simulate API call delay
             setTimeout(() => {
                 alert('Thank you for your message! I\'ll get back to you soon.');
@@ -1917,7 +1902,7 @@ function typeWriter(element, text, speed = 50) {
     let i = 0;
     element.innerHTML = '';
     element.style.opacity = '1';
-    
+
     function type() {
         if (i < text.length) {
             if (text.charAt(i) === '\n' || text.charAt(i) === '<' || text.charAt(i) === '>') {
@@ -1934,7 +1919,7 @@ function typeWriter(element, text, speed = 50) {
             setTimeout(type, speed);
         }
     }
-    
+
     type();
 }
 
@@ -1942,10 +1927,10 @@ function typeWriter(element, text, speed = 50) {
 document.addEventListener('DOMContentLoaded', () => {
     const titleElement = document.querySelector('.intro-title');
     const originalText = "I'm Pramay Wankhade,\nComputer Science Student";
-    
+
     // Clear any existing content
     titleElement.style.opacity = '0';
-    
+
     // Start typing effect after a short delay
     setTimeout(() => {
         typeWriter(titleElement, originalText, 50);
@@ -1963,28 +1948,28 @@ document.addEventListener('DOMContentLoaded', () => {
             particle.style.pointerEvents = 'none';
             particle.style.opacity = '0.3';
             particle.style.zIndex = '-1';
-            
+
             // Random position
             particle.style.left = Math.random() * window.innerWidth + 'px';
             particle.style.top = window.innerHeight + 'px';
-            
+
             document.body.appendChild(particle);
-            
+
             // Animate particle
             let position = window.innerHeight;
             const speed = Math.random() * 3 + 1;
-            
+
             const animate = () => {
                 position -= speed;
                 particle.style.top = position + 'px';
-                
+
                 if (position < -10) {
                     particle.remove();
                 } else {
                     requestAnimationFrame(animate);
                 }
             };
-            
+
             animate();
         }
 
@@ -2013,7 +1998,7 @@ document.addEventListener('DOMContentLoaded', () => {
             skill.addEventListener('mouseenter', function() {
                 this.style.transform = 'translateY(-10px) rotateY(10deg)';
             });
-            
+
             skill.addEventListener('mouseleave', function() {
                 this.style.transform = 'translateY(0) rotateY(0deg)';
             });
@@ -2037,10 +2022,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     feedback.style.top = '50%';
                     feedback.style.left = '50%';
                     feedback.style.transform = 'translate(-50%, -50%)';
-                    
+
                     this.style.position = 'relative';
                     this.appendChild(feedback);
-                    
+
                     setTimeout(() => {
                         feedback.remove();
                     }, 2000);
@@ -2069,7 +2054,7 @@ document.addEventListener('DOMContentLoaded', () => {
             projectRows.forEach(row => {
                 const type = row.querySelector('td:first-child .tag').classList[1];
                 const status = row.querySelector('.status-badge').classList[1];
-                
+
                 const typeMatch = typeValue === 'all' || type === typeValue;
                 const statusMatch = statusValue === 'all' || status === statusValue;
 
